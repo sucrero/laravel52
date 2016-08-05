@@ -46,4 +46,6 @@
 //
 Route::get('/','IndexController@index');
 
-
+Route::get('adm', function(){
+    return view('admin.index');
+});
